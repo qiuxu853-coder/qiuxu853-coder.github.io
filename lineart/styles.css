@@ -90,6 +90,8 @@ img { display: block; width: 100%; }
 .panel-stories i { color: var(--blue); font-size: 11px; font-style: normal; font-weight: 700; }
 .panel-stories h4 { margin: 16px 0 12px; font-size: 17px; }
 .panel-stories p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.85; }
+.story-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 18px; padding-bottom: 4px; border-bottom: 1px solid var(--blue); color: var(--blue); font-size: 12px; font-weight: 700; text-decoration: none; }
+.story-link:hover, .story-link:focus-visible { color: var(--ink); border-color: var(--ink); }
 
 .project-filters { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 38px; }
 .project-filters button { padding: 10px 17px; border: 1px solid var(--line); background: #fff; color: var(--muted); font-size: 13px; cursor: pointer; transition: .2s; }
@@ -222,3 +224,4 @@ footer a { text-decoration: none; }
   *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
