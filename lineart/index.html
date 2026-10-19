@@ -6,7 +6,7 @@
   <meta name="description" content="许秋容的个人作品集：市场分析、学术研究与项目协同。">
   <meta name="theme-color" content="#ffffff">
   <title>许秋容｜Portfolio</title>
-  <link rel="stylesheet" href="styles.css?v=20261020-contact2">
+  <link rel="stylesheet" href="styles.css?v=20261020-hero-carousel1">
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -28,9 +28,9 @@
     <section class="hero section-shell" id="home">
       <div class="hero-copy reveal">
         <p class="kicker">PORTFOLIO · 2026</p>
-        <h1><span>HALO!</span>我是许秋容</h1>
+        <h1><span class="hero-greeting">HALO!</span><span class="hero-name-line">我是许秋容 <em>Chloe</em></span></h1>
         <p class="hero-position">市场运营 <i>×</i> 数据分析 <i>×</i> 项目协同</p>
-        <p class="hero-note">HK<br><em>保持好奇，探索自己的职业方向 ing...</em></p>
+        <p class="hero-note">广东外语外贸大学经济学专业 → HK<br><em>保持好奇，探索自己的职业方向 ing...</em></p>
         <div class="hero-actions">
           <a class="button primary" href="#experience">查看经历 <span>→</span></a>
           <a class="text-link" href="#projects">浏览项目</a>
@@ -78,7 +78,7 @@
 
     <section class="experience section-shell" id="experience">
       <header class="section-heading reveal">
-        <div><p class="kicker">01 / EXPERIENCE</p><h2>在不同场景里，<br>训练同一种解决问题的能力。</h2></div>
+        <div><p class="kicker">01 / EXPERIENCE</p><h2>在多段实习中，<br>锻炼自己解决问题的能力。</h2></div>
         <p>从世界五百强企业到国家级展会，从内容平台到金融与公共服务。方向不完全相同，但每段经历都让我更快理解业务、识别问题并推动落地。</p>
       </header>
 
@@ -151,7 +151,9 @@
 
       <section class="project-group reveal" aria-labelledby="market-heading">
         <header class="project-group-heading"><span>01</span><div><h3 id="market-heading">市场分析</h3><p>从跨境电商到文化消费，围绕市场、用户与传播问题形成可执行的分析结论。</p></div></header>
-        <div class="project-grid market-projects">
+        <div class="project-carousel" data-carousel>
+          <div class="carousel-toolbar"><span>3 PIECES / 左右滑动查看</span><div class="carousel-nav"><b data-count>01 / 03</b><button type="button" data-prev aria-label="上一个市场分析项目">←</button><button type="button" data-next aria-label="下一个市场分析项目">→</button></div></div>
+          <div class="project-rail market-projects" data-rail tabindex="0">
           <article class="project-card feature-card">
             <div class="project-art"><svg viewBox="0 0 300 190" aria-hidden="true"><path d="M27 43h157v105H27zM27 65h157M43 53h2M55 53h2M67 53h2M45 82h38v43H45zM96 82h69M96 98h56M96 114h42M207 146h73M219 146v-35M242 146V90M266 146V66M207 91l27-24 18 11 27-32M279 46v16M279 46h-16"/><circle cx="64" cy="103" r="8"/></svg><span>E-COMMERCE ANALYSIS</span></div>
             <div class="project-copy"><p class="project-type">DIGITAL TRADE · 数字贸易大赛</p><h3>跨境电商市场与选品分析</h3><p>围绕 Amazon 女装与男鞋市场，整理行业、商品与用户评价数据，使用 Excel、BI 工具分析市场规模、竞争格局与消费者偏好，完成 4 份市场报告及运营策略。</p><div class="award-line"><span>华南赛区一等奖</span><span>全国总决赛二等奖</span></div><button class="project-more" type="button" data-dialog="dialog-digital">查看奖项 <span>↗</span></button></div>
@@ -166,6 +168,7 @@
             <div class="project-art"><svg viewBox="0 0 300 190" aria-hidden="true"><circle cx="55" cy="67" r="22"/><path d="M21 148c5-35 20-54 34-54s29 19 34 54M112 43h80v105h-80zM129 65h46M129 83h33M129 120l11 11 28-31M210 67h65M242 35v64M210 67l18-17M210 67l18 17M275 67l-18-17M275 67l-18 17M211 148c5-35 18-54 31-54 14 0 27 19 32 54"/><circle cx="242" cy="67" r="22"/></svg><span>TALENT MATCHING</span></div>
             <div class="project-copy"><p class="project-type">FAVE PLAN · 用户研究</p><h3>“斐沃（FAVE）”高校就业指导服务计划</h3><p>面向高校在校生，围绕人才培养、职业规划、人才评估与人岗匹配设计数智化服务模式；负责市场调研、用户痛点分析与营销策略。</p><div class="tag-row"><span>市场调研</span><span>用户痛点</span><span>营销策略</span></div></div>
           </article>
+          </div>
         </div>
       </section>
 
@@ -199,7 +202,9 @@
 
       <section class="project-group reveal" aria-labelledby="model-heading">
         <header class="project-group-heading"><span>03</span><div><h3 id="model-heading">数学建模</h3><p>把复杂问题转化为可计算、可验证、可解释的模型与结论。</p></div></header>
-        <div class="project-grid model-projects">
+        <div class="project-carousel" data-carousel>
+          <div class="carousel-toolbar"><span>2 PIECES / 左右滑动查看</span><div class="carousel-nav"><b data-count>01 / 02</b><button type="button" data-prev aria-label="上一个数学建模项目">←</button><button type="button" data-next aria-label="下一个数学建模项目">→</button></div></div>
+          <div class="project-rail model-projects" data-rail tabindex="0">
           <article class="project-card">
             <div class="project-art"><svg viewBox="0 0 300 190" aria-hidden="true"><path d="M36 150h230M50 150V38M50 132l38-34 36 13 45-55 40 29 44-47M75 49c32 33 63 47 96 42s55-24 79-57M76 150v-19M113 150v-39M151 150V91M189 150V63M227 150V34"/></svg><span>MATH MODELING</span></div>
             <div class="project-copy"><p class="project-type">研究题目 · 孕妇 BMI 分组与无创产前检测时点</p><h3>全国大学生数学建模竞赛</h3><p>围绕孕妇 BMI 分组与无创产前检测时点，完成数据清洗、模型求解、可视化及论文整合，并参与胎儿异常判定模型研究。</p><div class="award-line"><span>广东赛区一等奖</span></div></div>
@@ -209,6 +214,7 @@
             <div class="project-art"><svg viewBox="0 0 300 190" aria-hidden="true"><path d="M42 149h212M61 149V45h166v104M79 127l27-35 30 17 31-52 41 34M78 70h29M78 55h48M81 127v22M117 109v40M153 82v67M189 92v57"/></svg><span>STATISTICAL MODELING</span></div>
             <div class="project-copy"><p class="project-type">研究题目 · 关键矿产 × 新能源汽车行业建模</p><h3>全国大学生统计建模大赛</h3><p>将关键矿产供应链研究并入统计建模项目，综合回归、系统动力学、博弈论与模糊推理，形成行业动态战略规划。</p><div class="award-line"><span>广东赛区二等奖</span></div></div>
           </article>
+          </div>
         </div>
       </section>
 
@@ -261,7 +267,7 @@
       <div class="contact-copy reveal">
         <p class="kicker">04 / CONTACT</p>
         <h2>谢谢您看到这里！</h2>
-        <p class="contact-growth">这个网站还在继续生长.....<br>无论是鼓励、机会、建议，还是直接的批评，都欢迎留言——我会认真听取，继续努力^^</p>
+        <p class="contact-growth">这个网站还在继续成长.....<br>无论是鼓励、机会、建议，还是直接的批评，都欢迎留言——我会认真听取，继续努力^^</p>
         <div class="contact-links">
           <button class="contact-message" type="button" data-dialog="dialog-contact">给我留言 <span>↗</span></button>
         </div>
