@@ -41,8 +41,8 @@ img { display: block; width: 100%; }
 .hero-name-line em { color: var(--muted); font-family: Georgia, "Times New Roman", serif; font-size: .28em; font-style: italic; font-weight: 400; letter-spacing: .08em; }
 .hero-position { margin: 32px 0 0; font-size: clamp(18px,1.6vw,26px); letter-spacing: .03em; }
 .hero-position i { padding: 0 .35em; color: var(--blue); font-style: normal; }
-.hero-note { max-width: 520px; margin: 22px 0 0; color: var(--muted); font-size: 15px; line-height: 1.95; }
-.hero-note em { color: var(--ink); font-style: normal; }
+.hero-note { max-width: 520px; margin: 22px 0 0; color: var(--ink); font-size: 15px; line-height: 1.95; }
+.hero-note em { color: var(--muted); font-style: normal; }
 .hero-actions { display: flex; align-items: center; gap: 28px; margin-top: 38px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 28px; min-height: 48px; padding: 0 22px; border: 1px solid var(--ink); text-decoration: none; font-size: 14px; transition: background .2s, color .2s, transform .2s; }
 .button:hover { transform: translateY(-2px); }
